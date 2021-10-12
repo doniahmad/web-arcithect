@@ -18,19 +18,19 @@ function NavbarComp() {
               className="justify-content-center nav-item"
               style={{ flex: 1 }}
             >
-              <LinkContainer to="/web-arcithect/" exact>
+              <LinkContainer to="/" exact>
                 <Nav.Link>HOME</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/web-arcithect/gallery">
+              <LinkContainer to="/gallery">
                 <Nav.Link>GALLERY</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/web-arcithect/project">
+              <LinkContainer to="/project">
                 <Nav.Link>PROJECTS</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/web-arcithect/certificate">
+              <LinkContainer to="/certificate">
                 <Nav.Link>CERTIFICATIONS</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/web-arcithect/contact">
+              <LinkContainer to="/contact">
                 <Nav.Link>CONTACTS</Nav.Link>
               </LinkContainer>
             </Nav>
