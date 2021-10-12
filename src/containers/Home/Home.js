@@ -21,7 +21,7 @@ function Home() {
               <span>Lorum</span>
             </h1>
           </Col>
-          <Col>
+          <Col md={8}>
             <div
               className="contain-landing overlay"
               style={{ background: `url(${lorumProject})` }}
