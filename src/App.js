@@ -16,7 +16,7 @@ function App() {
       <NavbarComp />
       <div className="inner">
         <Switch>
-          <Route path="/" component={Home} />
+          <Route path="/" component={Home} exact />
           <Route path="/gallery" component={Gallery} />
           <Route path="/project" component={Project} />
           <Route path="/certificate" component={Certificate} />
