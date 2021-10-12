@@ -12,7 +12,7 @@ import ProjectDetail from "./containers/ProjectDetail/ProjectDetail";
 
 function App() {
   return (
-    <BrowserRouter basename="/web-arcithect">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <NavbarComp />
       <div className="inner">
         <Switch>
