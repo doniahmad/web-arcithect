@@ -12,7 +12,7 @@ import ProjectDetail from "./containers/ProjectDetail/ProjectDetail";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <NavbarComp />
       <div className="inner">
         <Switch>
